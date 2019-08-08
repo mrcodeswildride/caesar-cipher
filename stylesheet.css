@@ -1,0 +1,44 @@
+body {
+    background-color: beige;
+}
+
+textarea,
+#controls {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 375px;
+    height: 375px;
+    border: 1px solid black;
+    margin-right: 30px;
+}
+
+#shiftInput {
+    margin-bottom: 25px;
+}
+
+label,
+input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+label {
+    margin-right: 5px;
+}
+
+input,
+button {
+    padding: 5px;
+}
+
+#shiftAmount {
+    width: 50px;
+}
+
+#shiftLeft {
+    margin-right: 5px;
+}
