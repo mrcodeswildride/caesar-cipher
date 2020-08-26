@@ -2,27 +2,28 @@
 <html>
 
 <head>
-    <title>Caesar Cipher</title>
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <link rel="stylesheet" href="stylesheet.css">
+	<title>Caesar Cipher</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js" defer>
+
+	</script>
 </head>
 
 <body>
-    <h1>Caesar Cipher</h1>
+	<h1>Caesar Cipher</h1>
 
-    <textarea id="words"></textarea>
+	<textarea id="words"></textarea>
 
-    <div id="controls">
-        <div id="shiftInput">
-            <label for="shiftAmount">Number of shifts:</label>
-            <input id="shiftAmount" type="number" min="0" value="1">
-        </div>
-
-        <button id="shiftLeft">Shift left</button>
-        <button id="shiftRight">Shift right</button>
+  <div id="sidePanel">
+    <div class="row">
+      <label for="shiftAmount">Number of shifts</label>
+      <input type="number" min="0" value="1" id="shiftAmount">
     </div>
 
-    <script src="script.js"></script>
+    <button id="leftButton">Shift left</button>
+    <button id="rightButton">Shift right</button>
+  </div>
 </body>
 
 </html>
