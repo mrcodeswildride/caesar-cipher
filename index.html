@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Caesar Cipher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-	<title>Caesar Cipher</title>
-	<meta name="viewport" content="width=device-width, initial-scale=0.5">
-	<link href="style.css" rel="stylesheet">
-	<script src="script.js" defer>
+  <body>
+    <h1>Caesar Cipher</h1>
 
-	</script>
-</head>
+    <textarea id="words"></textarea>
 
-<body>
-	<h1>Caesar Cipher</h1>
+    <div id="sidePanel">
+      <div class="row">
+        <label for="shiftAmount">Number of shifts</label>
+        <input type="number" min="0" value="1" id="shiftAmount" />
+      </div>
 
-	<textarea id="words"></textarea>
-
-  <div id="sidePanel">
-    <div class="row">
-      <label for="shiftAmount">Number of shifts</label>
-      <input type="number" min="0" value="1" id="shiftAmount">
+      <button id="leftButton">Shift left</button>
+      <button id="rightButton">Shift right</button>
     </div>
-
-    <button id="leftButton">Shift left</button>
-    <button id="rightButton">Shift right</button>
-  </div>
-</body>
-
+  </body>
 </html>

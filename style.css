@@ -9,9 +9,9 @@ textarea,
 }
 
 textarea {
-  width: 400px;
-  height: 400px;
-  border: 1px solid black;
+  width: 375px;
+  height: 375px;
+  max-width: calc(100% - 38px);
   margin-right: 30px;
   margin-bottom: 30px;
 }
